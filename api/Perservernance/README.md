@@ -23,6 +23,6 @@ The `get_rover_data()` function abstracts the process of making an HTTP request 
 
 The `get_photos()` function abstracts the process of fetching photos for a specific rover, sol (Martian day), and camera. It handles the HTTP request, checks for errors, and returns the retrieved photo data.
 
-![alt text](NAVCAM_RIGHT.jpg)
+![alt text](RHAZ.jpg)
 
 The `download_photos()` function abstracts the process of downloading an image given its URL and saving it to a specified path. It encapsulates the low-level details of handling the file download and writing the content to disk.
