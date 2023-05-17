@@ -1,5 +1,5 @@
-NASA Rover Image API Python Project
-This is a Python project that utilizes NASA's Rover Image API to retrieve and display images captured by various Mars rovers. The project demonstrates the concepts of inheritance and encapsulation through the implementation of classes.
+#NASA Rover Image API Python Project
+##This is a Python project that utilizes NASA's Rover Image API to retrieve and display images captured by various Mars rovers. The project demonstrates the concepts of inheritance and encapsulation through the implementation of classes.
 
 Project Structure
 The project consists of the following files:
