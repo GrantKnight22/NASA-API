@@ -13,7 +13,11 @@ This project requires the following dependencies to be installed:
 - OS: The os dependency in Python is a module that provides a portable way of using operating system-dependent functionality.
 
 ## **Abstraction**
+<details open>
+<summary>example</summary>
 
+  
+</details>
   examples:
     `get_photos()`
     `download_photos()`
