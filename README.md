@@ -27,7 +27,7 @@ The `get_rover_data()` function abstracts the process of making an HTTP request 
 
 The `get_photos()` function abstracts the process of fetching photos for a specific rover, sol (Martian day), and camera. It handles the HTTP request, checks for errors, and returns the retrieved photo data.
 
-![alt text](RHAZ.jpg)
+![alt text](https://res.cloudinary.com/practicaldev/image/fetch/s--wpFwFAvR--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://anvil.works/blog/img/photos-from-mars/perseverance.jpg)
 
 The `download_photos()` function abstracts the process of downloading an image given its URL and saving it to a specified path. It encapsulates the low-level details of handling the file download and writing the content to disk.
 
@@ -54,3 +54,5 @@ In the given code, there is no explicit demonstration of inheritance. However he
 
 Suppose I have a Rover class that represents a rover on Mars. The Rover class could have attributes such as `name`, `status`, and `max_sol`, as well as methods like `get_photos()` and `download_photos()`.
 
+## *License*
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the code for personal or commercial purposes.
