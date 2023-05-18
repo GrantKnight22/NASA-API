@@ -26,3 +26,27 @@ The `get_photos()` function abstracts the process of fetching photos for a speci
 ![alt text](RHAZ.jpg)
 
 The `download_photos()` function abstracts the process of downloading an image given its URL and saving it to a specified path. It encapsulates the low-level details of handling the file download and writing the content to disk.
+
+## **Encapsulation**
+
+  examples:
+    `get_rover_data()`
+    `get_photos()`
+    `download_photos()`
+    `main()`
+
+The functions `get_rover_data()`, `get_photos()`, `download_photos()`, and `main()` encapsulate specific tasks or functionalities. They group related code together, making it modular and easier to manage. Each function encapsulates a specific operation, such as retrieving rover data, fetching photos, downloading photos, and orchestrating the main program flow.
+
+Variables like `api_key`, `api_url`, `rover_data`, and path are also encapsulated within their respective scopes (global or local to functions) and are not directly accessible from outside. This encapsulation helps maintain data integrity and avoids unintended modifications.
+
+## **Inheretence**
+
+  examples:
+    `get_photos()`
+    `download_photos()`
+    `main()`
+
+In the given code, there is no explicit demonstration of inheritance. However heres an example of how it can be used.
+
+Suppose I have a Rover class that represents a rover on Mars. The Rover class could have attributes such as `name`, `status`, and `max_sol`, as well as methods like `get_photos()` and `download_photos()`.
+
